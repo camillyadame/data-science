@@ -1,0 +1,5 @@
+# Dados brutos do INMET (baixados com src/baixar_dados.py)
+**/dados/brutos/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
