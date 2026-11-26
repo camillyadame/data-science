@@ -1,4 +1,7 @@
-pandas>=2.2
-numpy>=1.26
-matplotlib>=3.8
+# Testado com pandas 3.0, NumPy 2.5 e Matplotlib 3.11.
+# Os limites superiores evitam que uma versão maior nova mude resultados sem aviso.
+pandas>=2.2,<4
+numpy>=1.26,<3
+matplotlib>=3.8,<4
 jupyter
+pytest>=8
