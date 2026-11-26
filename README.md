@@ -14,6 +14,7 @@ Portfólio: [adamedev.com.br](https://adamedev.com.br)
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+python -m pytest clima-turismo-epitacio/tests   # testes da limpeza e do índice
 ```
 
 Cada pasta de projeto tem um README com os passos específicos.
